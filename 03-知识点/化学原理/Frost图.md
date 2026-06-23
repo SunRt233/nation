@@ -2,10 +2,11 @@
 title: Frost图
 aliases: [氧化态图]
 type: 知识点
+template_version: v1.3
 subject: 化学原理
-module: 氧化还原与电化学
-submodule: 电化学深化
-syllabus_stage: 决赛
+module: 化学原理
+submodule: 电化学
+syllabus_stage: 基础
 parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-化学原理
 syllabus_code: [08, 决赛10]
@@ -32,7 +33,15 @@ difficulty: 3
 importance: 4
 status: 已填充
 sources:
-  - Weller无机化学第6版第5章
+  - 提炼-普化原理-第10章-氧化还原电化学
+  - 教学逻辑提炼-Zchem-电化学-第一轮
+  - 教学逻辑提炼-周坤无机新课-酸碱理论与电化学-第一轮
+  - 专题-氧化还原与电化学
+source_type:
+  - 书籍提炼
+  - 教学逻辑提炼
+  - 教学逻辑提炼
+  - 专题归纳
 has_images: true
 image_count: 1
 images_priority: high
@@ -40,12 +49,29 @@ images_note: "Weller图5.5一般形式 + 图5.6氮实例"
 key_images:
   - "[[10-附件/图注/Frost图-一般形式]]"
   - "[[10-附件/图注/Frost图-氮元素实例]]"
-template_version: v1.4
 updated: 2026-05-20
-  - 教材
 review_cycle: 30d
 teaching_ready: false
-source_notes: []
+source_notes:
+  - "[[提炼-普化原理-第10章-氧化还原电化学]]"
+  - "[[教学逻辑提炼-Zchem-电化学-第一轮]]"
+  - "[[教学逻辑提炼-周坤无机新课-酸碱理论与电化学-第一轮]]"
+  - "[[专题-氧化还原与电化学]]"
+source_extracts:
+  - source_file: "[[教学逻辑提炼-Zchem-电化学-第一轮]]"
+    asset_id: "Frost-bridge"
+    asset_type: "机理资产"
+    asset_summary: "Frost 图用于把多个氧化态的相对稳定性与歧化/反歧化趋势图像化，适合作为 Latimer 图之后的第二工具。"
+    target_section: "§三/§四"
+    date: "2026-06-18"
+    status: "已回流"
+  - source_file: "[[教学逻辑提炼-周坤无机新课-酸碱理论与电化学-第一轮]]"
+    asset_id: "B2-10-11"
+    asset_type: "关联资产"
+    asset_summary: "周坤笔记中的 Latimer 图计算规则与歧化判断可自然转译为 Frost 图中的斜率和凸凹判据。"
+    target_section: "§三/§七"
+    date: "2026-06-18"
+    status: "已回流"
 ---
 
 # Frost图
@@ -217,7 +243,10 @@ $$2Mn^{3+}(aq) + 2H_2O(l) \longrightarrow Mn^{2+}(aq) + MnO_2(s) + 4H^+(aq)$$
 - 利用 Frost 图判断同族元素氧化态稳定性的周期性变化趋势。
 
 ## 十四、外部资料出处
-- Weller 等，《无机化学》第6版，第5章 §5.13
+- [[提炼-普化原理-第10章-氧化还原电化学]]
+- [[教学逻辑提炼-Zchem-电化学-第一轮]]
+- [[教学逻辑提炼-周坤无机新课-酸碱理论与电化学-第一轮]]
+- [[专题-氧化还原与电化学]]
 
 ## 十五、待完善项
 - [ ] 补充 Mn、N、Cl 等常见元素的 Frost 图数据表

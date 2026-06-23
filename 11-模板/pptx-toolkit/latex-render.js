@@ -10,8 +10,23 @@
  *   const pngPath = await renderLatex('\\mathrm{pH} = \\mathrm{p}K_a', { fontSize: 16 });
  */
 
-const katex = require('katex');
-const sharp = require('sharp');
+function requireWithFallback(moduleName, fallbackPath) {
+    try {
+        return require(moduleName);
+    } catch (error) {
+        if (!fallbackPath) throw error;
+        return require(fallbackPath);
+    }
+}
+
+const katex = requireWithFallback(
+    'katex',
+    'C:\\Obsidion\\妙妙屋\\pptx-workspace\\node_modules\\katex'
+);
+const sharp = requireWithFallback(
+    'sharp',
+    'C:\\Obsidion\\妙妙屋\\pptx-workspace\\node_modules\\sharp'
+);
 const fs = require('fs');
 const path = require('path');
 const crypto = require('crypto');

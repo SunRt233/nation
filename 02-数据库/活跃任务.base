@@ -72,6 +72,20 @@ views:
     sort:
       - property: completed
         direction: DESC
+  - type: table
+    name: 已阻塞
+    filters:
+      and:
+        - status == "blocked"
+    order:
+      - file.name
+      - priority
+      - area
+      - updated
+      - evidence
+    sort:
+      - property: updated
+        direction: DESC
   - type: cards
     name: 看板卡片
     order:

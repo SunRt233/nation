@@ -28,7 +28,7 @@ tags: [agent, 构建]
 
 ## 完成定义（DoD）
 - [ ] 每章一个文件，不跨章合并
-- [ ] frontmatter 含 source_type、subject、chapter、syllabus_codes
+- [ ] frontmatter 含主版本字段 `version`；若模板仍保留兼容字段，则 `template_version` 与 `version` 一致；同时包含 `source_type`、`subject`、`chapter`、`syllabus_codes`
 - [ ] 原书题号保持（如 2.1、5.16），未重新编号
 - [ ] 多问小题（1)(2)(3)）保持在一起
 - [ ] 随机抽1题对照源文件，答案和解析未篡改

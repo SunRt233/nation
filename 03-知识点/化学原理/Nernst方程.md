@@ -33,6 +33,7 @@ images_priority: low
 images_note: 建议配图：Nernst方程变量示意、浓差电池示意、pH/浓度改变导致电势变化的直观图。当前可先由板书推导与课件数轴承担。
 teaching_ready: false
 key_images: []
+teaching_insight: "[[教学洞察-Nernst方程]]"
 updated: 2026-06-01
 source_extracts:
   - source_file: "[[教学逻辑提炼-周坤无机新课-酸碱理论与电化学-第一轮]]"
@@ -40,6 +41,13 @@ source_extracts:
     asset_type: "实例资产"
     asset_summary: "沉淀对电极电势的影响：Ag+/Ag (0.7996 V) -> AgCl/Ag (0.2223 V)，经典演示"
     target_section: "§十二"
+  - source_file: "[[教学逻辑提炼-Zchem-电化学-第一轮]]"
+    asset_id: "12"
+    asset_type: "机理资产"
+    asset_summary: "Nernst方程推导链：ΔG=-nFE 与 ΔG=ΔG°+RTlnQ 联立得到 E=E°-(RT/nF)lnQ，适合放在课堂推导主线。"
+    target_section: "§三"
+    date: "2026-06-18"
+    status: "已回流"
 ---
 
 # Nernst 方程
@@ -57,7 +65,9 @@ $$E = E^\circ - \frac{RT}{nF} \ln Q$$
 $$E = E^\circ - \frac{0.0592}{n} \lg Q$$
 
 ## 二、考纲对应
-- [待填充]
+- 对应考纲条目：[[08-氧化还原与电化学]]
+- 所属模块：[[基础要求-化学原理]]
+- 本知识点在考纲中的作用：连接标准电极电势、原电池/电解池与平衡常数计算，是第一轮电化学计算的核心公式页。
 
 ## 三、核心原理
 
@@ -212,9 +222,11 @@ $$\mathrm{AgCl + e^- \rightleftharpoons Ag + Cl^-} \quad E°(\mathrm{AgCl/Ag}) =
 - **离子选择性电极**：玻璃电极（pH 计）的原理就是 Nernst 方程——膜电势与 H⁺ 浓度对数成正比。
 
 ## 十三、外部资料出处
-- 北⼤《普通化学原理》电化学章节
-- 《分析化学》电位分析法章节
-- Walther Nernst 原始论文 (1889)
+- [[提炼-普化原理-第10章-氧化还原电化学]]
+- [[教学逻辑提炼-周坤无机新课-酸碱理论与电化学-第一轮]]
+- [[教学逻辑提炼-Zchem-电化学-第一轮]]
+- [[专题-氧化还原与电化学]]
+- [[专题-电化学计算]]
 
 ## 十四、待完善项
 - [ ] 补充 Pourbaix 图的读图例题
@@ -223,19 +235,6 @@ $$\mathrm{AgCl + e^- \rightleftharpoons Ag + Cl^-} \quad E°(\mathrm{AgCl/Ag}) =
 
 ---
 
-## 相关真题
-
-## 十五、待完善项
-
-- [待填充]
-
-
-```dataview
-TABLE file.name AS "文件名", year AS "年份", type AS "题型", difficulty AS "难度"
-FROM "04-题库"
-WHERE contains(knowledge_points, "Nernst方程")
-SORT year DESC, difficulty ASC
-```
 ## 相关真题
 
 ```dataview

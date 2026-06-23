@@ -2,10 +2,11 @@
 title: Pourbaix图
 aliases: [E-pH图]
 type: 知识点
+template_version: v1.3
 subject: 化学原理
-module: 氧化还原与电化学
-submodule: 电化学深化
-syllabus_stage: 决赛
+module: 化学原理
+submodule: 电化学
+syllabus_stage: 基础
 parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-化学原理
 syllabus_code: [08, 决赛10]
@@ -32,7 +33,17 @@ difficulty: 3
 importance: 4
 status: 已填充
 sources:
-  - Weller无机化学第6版第5章
+  - 提炼-普化原理-第10章-氧化还原电化学
+  - 教学逻辑提炼-周坤无机新课-酸碱理论与电化学-第一轮
+  - 教学逻辑提炼-Zchem-电化学-第一轮
+  - 专题-氧化还原与电化学
+  - 专题-电化学计算
+source_type:
+  - 书籍提炼
+  - 教学逻辑提炼
+  - 教学逻辑提炼
+  - 专题归纳
+  - 专题归纳
 has_images: true
 image_count: 1
 images_priority: high
@@ -40,12 +51,30 @@ images_note: "Weller图5.11铁 + 图5.13锰"
 key_images:
   - "[[10-附件/图注/Pourbaix图-铁]]"
   - "[[10-附件/图注/Pourbaix图-锰]]"
-template_version: v1.4
 updated: 2026-05-20
-  - 教材
 review_cycle: 30d
 teaching_ready: false
-source_notes: []
+source_notes:
+  - "[[提炼-普化原理-第10章-氧化还原电化学]]"
+  - "[[教学逻辑提炼-周坤无机新课-酸碱理论与电化学-第一轮]]"
+  - "[[教学逻辑提炼-Zchem-电化学-第一轮]]"
+  - "[[专题-氧化还原与电化学]]"
+  - "[[专题-电化学计算]]"
+source_extracts:
+  - source_file: "[[教学逻辑提炼-周坤无机新课-酸碱理论与电化学-第一轮]]"
+    asset_id: "8"
+    asset_type: "实例资产"
+    asset_summary: "pH-电势图判读实例：Mn 体系在不同 pH 下的稳定物种，可直接作为 Pourbaix 图首个课堂样板。"
+    target_section: "§十/§十二"
+    date: "2026-06-18"
+    status: "已回流"
+  - source_file: "[[教学逻辑提炼-Zchem-电化学-第一轮]]"
+    asset_id: "E-pH-bridge"
+    asset_type: "机理资产"
+    asset_summary: "边界线按水平/竖直/斜线三类理解，是把 Nernst 方程图像化的最好入口。"
+    target_section: "§三"
+    date: "2026-06-18"
+    status: "已回流"
 ---
 
 # Pourbaix图
@@ -215,7 +244,11 @@ $$E = E^{\ominus} - \frac{0.059\,\mathrm{V}}{\nu_e}\times\nu_p \times pH \quad (
 - 配合 Latimer 图和 Frost 图进行多维度氧化还原分析。
 
 ## 十四、外部资料出处
-- Weller 等，《无机化学》第6版，第5章 §5.14
+- [[提炼-普化原理-第10章-氧化还原电化学]]
+- [[教学逻辑提炼-周坤无机新课-酸碱理论与电化学-第一轮]]
+- [[教学逻辑提炼-Zchem-电化学-第一轮]]
+- [[专题-氧化还原与电化学]]
+- [[专题-电化学计算]]
 
 ## 十五、待完善项
 - [ ] 补充 Fe、Mn、Cu 等常见元素的 Pourbaix 图简化版

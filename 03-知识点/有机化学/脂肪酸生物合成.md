@@ -19,7 +19,7 @@ importance: 3
 status: 已填充
 sources:
   - Clayden Organic Chemistry Ch.42
-review_cycle: [30, 90]
+review_cycle: 90d
 has_images: false
 image_count: 0
 images_priority: low

@@ -23,7 +23,7 @@ sources:
   - 教学逻辑提炼-周坤无机新课-热力学与化学平衡-第一轮
   - 专题-热力学初步
 source_type:
-  - 书籍提炼
+  - 教材提炼
   - 教学逻辑提炼
   - 专题归纳
 source_notes:
@@ -36,10 +36,15 @@ has_images: false
 image_count: 0
 images_priority: low
 images_note: 纯公式与概念型 KP，文字表达足够。
-teaching_ready: false
+teaching_ready: true
 key_images: []
-updated: 2026-05-04
+updated: 2026-06-18
 source_extracts:
+  - source_file: "[[提炼-普化原理-第5章-化学热力学]]"
+    asset_id: "Ch5-G"
+    asset_type: "教材提炼"
+    asset_summary: "系统覆盖 ΔG=ΔH−TΔS、ΔG 与 K、ΔG 与最大非体积功及自发性判据，是热力学课堂主来源。"
+    target_section: "§三-§十二"
   - source_file: "[[教学逻辑提炼-周坤无机新课-热力学与化学平衡-第一轮]]"
     asset_id: "B1-8"
     asset_type: "实例资产"
@@ -66,7 +71,9 @@ source_extracts:
 - ΔG > 0：非自发（Endergonic）
 
 ## 二、考纲对应
-- [待填充]
+- 对应考纲条目：[[06-热力学初步]]
+- 要求层级：理解 $\Delta G=\Delta H-T\Delta S$ 的意义，能用 $\Delta G$ 判断反应方向并与平衡常数、电化学联系
+- 课堂定位：是 [[焓]]、[[熵]] 之后的总判据页，也是 [[平衡常数]]、[[Nernst方程]] 与 [[化学电源]] 的桥梁页
 
 ## 三、核心原理
 
@@ -240,17 +247,27 @@ $$\Delta_{\mathrm{r}} G^\circ = -nFE^\circ$$
 - $E^\circ > 0 \iff \Delta G^\circ < 0 \iff$ 反应自发
 - 这是联系热力学与电化学的纽带
 
-## 八、待填充
-- [ ] 补充 Ellingham 图分析
+## 八、与其他知识点的联系
+- 前置知识：[[焓]]、[[熵]]
+- 相关知识：[[平衡常数]]、[[化学势]]、[[标准态]]
+- 应用知识：[[Nernst方程]]、[[化学电源]]、[[Ellingham图]]
 
-## 九、待填充
-- [ ] 待补充
+## 九、典型题型
+- 题型-由 $\Delta H,\Delta S$ 判断自发区间
+- 题型-由 $\Delta G^\circ$ 求平衡常数
+- 题型-由电池电动势反推 $\Delta G^\circ$
 
-## 十、待填充
-- [ ] 待补充
+## 十、例题
+**例题**：已知某反应 $\Delta H^\circ = 80\ \mathrm{kJ\cdot mol^{-1}}$，$\Delta S^\circ = 200\ \mathrm{J\cdot mol^{-1}\cdot K^{-1}}$，判断 298 K 与 600 K 下反应能否自发进行。  
+**答案要点**：先统一单位：
+$$\Delta G^\circ=\Delta H^\circ-T\Delta S^\circ=80-0.200T\quad (\mathrm{kJ\cdot mol^{-1}})$$
+298 K 时 $\Delta G^\circ=20.4>0$，不自发；600 K 时 $\Delta G^\circ=-40<0$，自发。该反应属于“焓增熵增型”，高温有利。
 
-## 十一、待填充
-- [ ] 待补充
+## 十一、易错点
+- 把 $\Delta G^\circ<0$ 误当成“任何条件都自发”，忽略实际还要看 $Q$
+- 把“自发”误当成“反应立刻发生”，混淆热力学与动力学
+- 计算时忘记把 $\Delta S$ 从 $\mathrm{J}$ 换成 $\mathrm{kJ}$，导致数量级错误
+- 将 $\Delta G=0$ 理解成“反应停止”，而不是“达到动态平衡”
 
 ## 十二、🎯 教学视角
 
@@ -258,68 +275,31 @@ $$\Delta_{\mathrm{r}} G^\circ = -nFE^\circ$$
 
 周坤课堂在引入 Gibbs 自由能判据时，使用了两组**认知冲突实例**来打破"放热=自发"的直觉：
 
-**实例 1："吸热却自发"——NH₄Cl(s) + Ba(OH)₂·8H₂O(s)（B1-8）**
+### 12.2 第一轮讲授抓手
+- 第一轮最有效的组织方式是“先破除放热判据迷信，再引出焓熵综合判据”
+- 板书最好固定成三层：$\Delta G=\Delta H-T\Delta S$、$\Delta G$ 的符号与自发性、以及它和 $K/E^\circ$ 的联系
+- 这样学生更容易把热力学、平衡和电化学串成一条线
 
-$$\mathrm{Ba(OH)_2 \cdot 8H_2O(s) + 2NH_4Cl(s) \longrightarrow BaCl_2(aq) + 2NH_3(g) + 10H_2O(l)}$$
+### 12.3 与现实/直觉的连接
+- 冰融化、盐溶解、石灰石分解都适合说明“不是只有放热才会自发”
+- 可把 $\Delta G$ 类比成“真正能拿出来做事的那部分能量”，帮助学生区别它与总能量变化
 
-- 现象：烧杯外壁结霜（强烈吸热）
-- 热力学分析：$\Delta H^\circ \gg 0$（吸热），但 $\Delta S^\circ \gg 0$（产生气体 + 溶解）
-- 结论：$T\Delta S$ 项在常温下超过 $\Delta H$，使 $\Delta G \lt 0$ → **熵增驱动自发**
-- 教学价值：经典演示实验，视觉冲击强，能有效打破"放热才自发"的前概念
+## 十三、竞赛拓展
+- Ellingham 图本质上就是若干反应 $\Delta G^\circ-T$ 直线的集合，可直接比较高温下氧化物稳定性
+- 化学势视角下，$\Delta G$ 是各组分化学势按化学计量数组合后的结果，是更一般的表述
+- 生化中的 ATP 耦合、材料中的电池电压、冶金中的还原判据，本质上都在用 Gibbs 自由能
 
-**实例 2："放热但不自发"——H₂ + ½O₂ 需点燃（B1-9）**
+## 十四、外部资料出处
+- 主要来源：[[提炼-普化原理-第5章-化学热力学]]
+- 教学组织参考：[[教学逻辑提炼-周坤无机新课-热力学与化学平衡-第一轮]]
+- 课堂归纳参考：[[专题-热力学初步]]
 
-$$\mathrm{H_2(g) + \frac{1}{2}O_2(g) \longrightarrow H_2O(l)} \quad \Delta H^\circ = -286\ \mathrm{kJ \cdot mol^{-1}}$$
-
-- 现象：燃烧放热极大，但常温下 H₂ 与 O₂ 混合并不自发反应
-- 热力学分析：$\Delta G^\circ \ll 0$（标态下自发倾向极强），但动力学障碍极大（活化能高）
-- 结论：**$\Delta G \lt 0$ 只说明热力学趋势，不代表反应一定发生**
-- 教学价值：建立"热力学 vs 动力学"的区分意识，为后续动力学章节铺垫
-
-### 12.2 教学策略建议
-
-| 教学环节 | 策略 | 来源 |
-|:---|:---|:---|
-| 引入 Gibbs 判据 | 先抛两个反例制造认知冲突 | 周坤课堂笔记 |
-| 推导过程 | 从第一定律 + 第二定律联合推导 | 讲义系统梳理 |
-| 巩固练习 | 熵变与 Gibbs 变符号判断 | 课堂实时演算 |
-| 边界强调 | 明确 $T\Delta S$ 项的温度依赖性 | 认知台阶表第 7-8 级 |
-
-## 十三、外部资料出处
-- **[[提炼-普化原理-第5章-化学热力学]]** — 第 5.8 节 Gibbs 自由能、第 5.9 节 Gibbs-Helmholtz 方程的应用（含全部例题与数据表）
-- 教材附录 C.2 — 常见物质的 $\Delta_{\mathrm{f}}H_{\mathrm{m}}^{\ominus}$、$\Delta_{\mathrm{f}}G_{\mathrm{m}}^{\ominus}$、$S_{\mathrm{m}}^{\ominus}$ 数据表（298 K）
-- 课外读物：
-  - [1] 王运刚. 总熵判据和自由焓判据. 化学通报, 1982, (12), 45
-  - [2] R. D. Freeman. 热力学数据中新的标准态压力. 方锡义, 译. 大学化学, 1986, (2), 31
-  - [3] 高执棣. 关于 $\Delta H^{\ominus}$ 和 $\Delta G^{\ominus}$ 的一些问题. 大学化学, 1987, (2), 48
-  - [4] T. P. Silverstein. The real reason why oil and water don't mix. *J Chem Educ*, 1998, 75
-
-## 十三、待填充
-- [ ] 待补充
-
-## 十四、待填充
-- [ ] 待补充
+## 十五、待完善项
+- [ ] 后续可补一页“Ellingham 图读图模板”
+- [ ] 后续可补“热力学 vs 动力学”对照示意图
 
 ---
 
-## 相关真题（Dataview）
-
-## 十五、待完善项
-
-- [待填充]
-
-
-```dataview
-TABLE
-  question_type AS 题型,
-  difficulty AS 难度,
-  teaching_level AS 教学层级,
-  source AS 来源
-FROM "04-题库"
-WHERE type = "题目"
-  AND contains(knowledge_points, "Gibbs自由能")
-SORT difficulty ASC, year DESC
-```
 ## 相关真题（Dataview）
 
 ```dataview

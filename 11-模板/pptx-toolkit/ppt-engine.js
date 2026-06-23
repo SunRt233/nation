@@ -11,7 +11,29 @@
  * - 表格直接在 PptxGenJS 层面添加（最稳定）
  */
 
-const pptxgen = require('pptxgenjs');
+const Module = require('module');
+const fallbackNodeModules = [
+    'C:\\Obsidion\\妙妙屋\\pptx-workspace\\node_modules',
+    'C:\\Obsidion\\妙妙屋\\.claude\\node_modules'
+];
+
+const existingNodePath = process.env.NODE_PATH ? process.env.NODE_PATH.split(';').filter(Boolean) : [];
+process.env.NODE_PATH = [...new Set([...fallbackNodeModules, ...existingNodePath])].join(';');
+Module._initPaths();
+
+function requireWithFallback(moduleName, fallbackPath) {
+    try {
+        return require(moduleName);
+    } catch (error) {
+        if (!fallbackPath) throw error;
+        return require(fallbackPath);
+    }
+}
+
+const pptxgen = requireWithFallback(
+    'pptxgenjs',
+    'C:\\Obsidion\\妙妙屋\\pptx-workspace\\node_modules\\pptxgenjs'
+);
 const html2pptx = require('C:\\Users\\蕾赛\\.claude\\skills\\pptx\\scripts\\html2pptx.js');
 const { renderBatch, calcImageSize } = require('./latex-render.js');
 const fs = require('fs');

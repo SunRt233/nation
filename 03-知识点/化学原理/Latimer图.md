@@ -1,11 +1,12 @@
 ---
 title: Latimer图
-aliases: []
+aliases: [Latimer diagram, 还原电位图]
 type: 知识点
+template_version: v1.3
 subject: 化学原理
-module: 氧化还原与电化学
-submodule: 电化学深化
-syllabus_stage: 决赛
+module: 化学原理
+submodule: 电化学
+syllabus_stage: 基础
 parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-化学原理
 syllabus_code: [08, 决赛10]
@@ -32,14 +33,22 @@ difficulty: 3
 importance: 4
 status: 已填充
 sources:
-  - Weller无机化学第6版第5章
-  - 教材
+  - 提炼-普化原理-第10章-氧化还原电化学
+  - 教学逻辑提炼-周坤无机新课-酸碱理论与电化学-第一轮
+  - 教学逻辑提炼-Zchem-电化学-第一轮
+  - 专题-氧化还原与电化学
+  - 专题-电化学计算
+source_type:
+  - 书籍提炼
+  - 教学逻辑提炼
+  - 教学逻辑提炼
+  - 专题归纳
+  - 专题归纳
 review_cycle: 30d
 has_images: false
 image_count: 0
 images_priority: low
 images_note: "LaTeX 公式 + Mermaid 决策流程图已足够;原书 §5.12 不含图像截图,无需补图。"
-template_version: v1.2
 updated: 2026-06-01
 source_extracts:
   - source_file: "[[教学逻辑提炼-周坤无机新课-酸碱理论与电化学-第一轮]]"
@@ -52,10 +61,21 @@ source_extracts:
     asset_type: "实例资产"
     asset_summary: "歧化反应判断规则：E°(右) > E°(左)则中间氧化态歧化，笔记有MnO₄²⁻实例"
     target_section: "§十二"
+  - source_file: "[[教学逻辑提炼-Zchem-电化学-第一轮]]"
+    asset_id: "10"
+    asset_type: "机理资产"
+    asset_summary: "Latimer 图与 Nernst 方程、标准电极电势之间的承接关系，适合放在电化学深化桥梁层。"
+    target_section: "§三/§十二"
+    date: "2026-06-18"
+    status: "已回流"
 key_images: []
 teaching_ready: false
 source_notes:
+  - "[[提炼-普化原理-第10章-氧化还原电化学]]"
   - "[[教学逻辑提炼-周坤无机新课-酸碱理论与电化学-第一轮]]"
+  - "[[教学逻辑提炼-Zchem-电化学-第一轮]]"
+  - "[[专题-氧化还原与电化学]]"
+  - "[[专题-电化学计算]]"
 ---
 
 # Latimer图
@@ -255,7 +275,11 @@ $$\mathrm{MnO_4^- \xrightarrow{+0.56} MnO_4^{2-} \xrightarrow{+0.60} MnO_2}$$
 - 利用 Latimer 图计算元素的平均标准氧化自由能。
 
 ## 十四、外部资料出处
-- Weller 等，《无机化学》第6版，第5章 §5.12
+- [[提炼-普化原理-第10章-氧化还原电化学]]
+- [[教学逻辑提炼-周坤无机新课-酸碱理论与电化学-第一轮]]
+- [[教学逻辑提炼-Zchem-电化学-第一轮]]
+- [[专题-氧化还原与电化学]]
+- [[专题-电化学计算]]
 
 ## 十五、待完善项
 - [ ] 补充更多元素的 Latimer 图实例（Mn、N、S 等）

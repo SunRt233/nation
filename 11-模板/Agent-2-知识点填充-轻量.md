@@ -23,11 +23,12 @@ tags: [agent, 构建]
 
 ## 执行流程（3步）
 1. **读取源文件**：读取提炼笔记和目标知识点文件（status=骨架）
-2. **按模板填充**：对照知识点模板14个 section 逐一填充，提炼笔记无内容则标 `[待补充]`
-3. **更新状态**：frontmatter 中 status 改为"已填充"，updated 改为今天
+2. **按模板填充**：对照知识点模板当前 **15 段结构** 逐一填充，提炼笔记无内容则标 `[待补充]`
+3. **更新状态**：frontmatter 中 `status` 改为"已填充"，`updated` 改为今天；`version` 以当前模板为准，若文件仍保留 `template_version`，则与 `version` 保持一致
 
 ## 完成定义（DoD）
-- [ ] 14个 section 都有内容或合理的 `[待补充]` 标注
+- [ ] 15 个标准段落都有内容或合理的 `[待补充]` 标注
+- [ ] frontmatter 中 `version` 符合当前模板；若仍保留 `template_version`，其值与 `version` 一致
 - [ ] 至少1道含分析+解答+反思的完整例题
 - [ ] related/prerequisite 的 wiki-link 有效
 - [ ] 未删除已有内容

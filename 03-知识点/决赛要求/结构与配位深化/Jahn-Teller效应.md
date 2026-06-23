@@ -481,5 +481,5 @@ SORT year DESC, difficulty ASC
 
 ## 十五、待完善项
 
-- [待填充]
+- [ ] 后续补一张“各 dⁿ 构型 Jahn-Teller 强弱总表”课堂图版
 

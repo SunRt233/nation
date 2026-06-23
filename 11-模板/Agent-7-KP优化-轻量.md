@@ -26,11 +26,12 @@ tags: [agent, 维护]
 1. **诊断**：对照模板列出 KP 缺失/单薄的段落（最多5点）
 2. **规划**：写优化清单，明确每段改什么
 3. **执行**：优先用 Edit 保留改动可追溯，一段一段改，不删除已有信息
-4. **更新 frontmatter**：status 改为"已填充"，updated 改为今日
+4. **更新 frontmatter**：`status` 改为"已填充"，`updated` 改为今日；`version` 以当前模板为准，若文件仍保留 `template_version`，则与 `version` 保持一致
 
 ## 完成定义（DoD）
-- [ ] 14段结构完整（即使某段是 `<!-- 待填充 -->`）
-- [ ] 化学式全部 `\mathrm{}` 或 `\ce{}`
+- [ ] 15 段结构完整（即使某段是 `<!-- 待填充 -->`）
+- [ ] frontmatter 中 `version` 符合当前模板；若仍保留 `template_version`，其值与 `version` 一致
+- [ ] 化学式全部 `\mathrm{}` 或 `\ce{}` 
 - [ ] wikilink 不带 `.md`
 - [ ] frontmatter 半角冒号
 - [ ] 教学视角段不空

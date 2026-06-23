@@ -3,13 +3,13 @@ title: Le Châtelier原理
 aliases: [勒夏特列原理, 平衡移动原理, Le Chatelier原理, 化学平衡移动]
 type: 知识点
 subject: 化学原理
-module: 化学平衡
-submodule:
+module: 化学原理
+submodule: 化学平衡
 syllabus_stage: 基础
 parent_overview: 中国化学奥林匹克基本要求-总览
-parent_module:
-syllabus_code: []
-syllabus_module: []
+parent_module: 基础要求-化学原理
+syllabus_code: [7]
+syllabus_module: [化学原理]
 tags:
   - 化竞
   - 化学原理
@@ -21,8 +21,12 @@ problem_types: []
 difficulty: 2
 importance: 3
 status: 已填充
-sources: ["普通化学原理 第4版 第6章"]
-source_type: [教材]
+sources:
+  - 提炼-普化原理-第6章-化学平衡
+  - 提炼-无机化学第五版-第4章-化学平衡
+  - 教学逻辑提炼-周坤无机新课-热力学与化学平衡-第一轮
+  - 专题-化学平衡
+source_type: [书籍提炼, 书籍提炼, 教学逻辑提炼, 专题归纳]
 review_cycle: 30d
 has_images: false
 image_count: 0
@@ -31,14 +35,34 @@ images_note: "待评估"
 key_images: []
 template_version: v1.3
 updated: 2026-05-24
-teaching_ready: false
-source_notes: []
+teaching_ready: true
+source_notes:
+  - "[[07-资料提炼/书籍提炼/提炼-普化原理-第6章-化学平衡]]"
+  - "[[07-资料提炼/书籍提炼/提炼-无机化学第五版-第4章-化学平衡]]"
+  - "[[07-资料提炼/教学逻辑提炼/无机化学-周坤-2020/教学逻辑提炼-周坤无机新课-热力学与化学平衡-第一轮]]"
+  - "[[专题-化学平衡]]"
+  - "[[04-课件/新授课/2026-06-02-化学平衡-基础班]]"
+source_extracts:
+  - source_file: "[[提炼-普化原理-第6章-化学平衡]]"
+    asset_id: "第6章-LeChatelier"
+    asset_type: "书籍提炼"
+    asset_summary: "浓度、压强、温度和催化剂对平衡的影响及 Q/K 解释框架。"
+    target_section: "§三-§七"
+    date: "2026-06-18"
+    status: "已回流"
+  - source_file: "[[教学逻辑提炼-周坤无机新课-热力学与化学平衡-第一轮]]"
+    asset_id: "B1-平衡移动"
+    asset_type: "教学逻辑资产"
+    asset_summary: "把 Le Châtelier 原理从口诀判断推进到 Q/K 和工业条件选择。"
+    target_section: "§三-§十二"
+    date: "2026-06-18"
+    status: "已回流"
 ---
 
 # Le Châtelier原理
 
 - 总览：[[中国化学奥林匹克基本要求-总览]]
-- 所属模块：[[化学平衡]]
+- 所属模块：[[基础要求-化学原理]]
 
 ## 一、定义
 
@@ -48,7 +72,9 @@ source_notes: []
 
 ## 二、考纲对应
 
-（待填充）
+- 对应考纲条目：[[07-化学平衡]]
+- 所属模块：[[基础要求-化学原理]]
+- 本知识点在考纲中的作用：用于定性判断平衡对外界条件的响应，是平衡常数与工业条件选择之间的桥梁。
 
 ## 三、核心原理
 

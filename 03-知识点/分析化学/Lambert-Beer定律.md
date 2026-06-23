@@ -18,15 +18,18 @@ problem_types: [题型-Beer定律计算]
 difficulty: 2
 importance: 5
 status: 已填充
-sources: []
-source_type: []
+sources:
+  - "[[提炼-分析化学第六版-第7-10章-氧化还原沉淀重量与光度法]]"
+  - "[[分光光度法]]"
+source_type: [教材提炼, 知识点总入口]
 review_cycle: 30d
 has_images: false
 image_count: 0
 images_priority: 滴定曲线/光谱 medium，概念 low
 images_note: "当前以文字、公式或表格表达为主，暂未单独配置图像文件；后续备课如需增强直观性，再按需补图。"
 teaching_ready: false
-source_notes: []
+source_notes:
+  - "本页是分光光度法链的公式页，主来源是教材提炼中的吸光光度法章节。"
 key_images: []
 updated: 2026-05-25
 ---

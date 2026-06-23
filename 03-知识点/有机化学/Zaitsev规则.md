@@ -22,6 +22,7 @@ problem_types: [题型-产物分布预测, 题型-消除机理判断]
 difficulty: 2
 importance: 4
 status: 已填充
+review_cycle: 30d
 updated: 2026-05-16
 template_version: v1.3
 key_images: []

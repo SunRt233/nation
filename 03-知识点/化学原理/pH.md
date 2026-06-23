@@ -19,9 +19,11 @@ difficulty: 2
 importance: 5
 status: 已填充
 sources:
+  - 提炼-普化原理-第8章-酸碱平衡
   - 教学逻辑提炼-周坤无机新课-酸碱理论与电化学-第一轮
   - 专题-酸碱理论
 source_type:
+  - 教材提炼
   - 教学逻辑提炼
   - 专题归纳
 review_cycle: 30d
@@ -29,18 +31,29 @@ has_images: false
 image_count: 0
 images_priority: low
 images_note: "当前以文字、公式或表格表达为主，暂未单独配置图像文件；后续备课如需增强直观性，再按需补图。"
-teaching_ready: false
+teaching_ready: true
 source_notes:
+  - "[[提炼-普化原理-第8章-酸碱平衡]]"
   - "[[教学逻辑提炼-周坤无机新课-酸碱理论与电化学-第一轮]]"
   - "[[专题-酸碱理论]]"
   - "[[04-课件/新授课/2026-06-02-酸碱理论-基础班]]"
-updated: 2026-06-01
+updated: 2026-06-18
 source_extracts:
+  - source_file: "[[提炼-普化原理-第8章-酸碱平衡]]"
+    asset_id: "Ch8-8.2"
+    asset_type: "教材提炼"
+    asset_summary: "给出 pH、pOH 与 pKw 的定义，强调 pH+pOH=pKw 而非永远等于 14，并列出 Kw 随温度变化的数据表。"
+    target_section: "§一-§六"
   - source_file: "[[教学逻辑提炼-周坤无机新课-酸碱理论与电化学-第一轮]]"
     asset_id: "B2-关联"
     asset_type: "关联引用"
     asset_summary: "本KP未在周坤Batch 2资产清单中直接映射可提取资产，但pH概念与Brønsted理论共轭酸碱对密切相关"
     target_section: "—"
+  - source_file: "[[专题-酸碱理论]]"
+    asset_id: "专题-pH"
+    asset_type: "专题归纳"
+    asset_summary: "归纳了强酸强碱、弱酸弱碱、缓冲体系、两性物质和极稀溶液的 pH 计算路径。"
+    target_section: "§四-§十"
 key_images: []
 ---
 
@@ -56,7 +69,9 @@ $$\mathrm{pH} = -\lg[\mathrm{H}^+] \quad \mathrm{pOH} = -\lg[\mathrm{OH}^-]$$
 25°C 水溶液中：$\mathrm{pH} + \mathrm{pOH} = 14.00$
 
 ## 二、考纲对应
-- [待填充]
+- 对应考纲条目：[[05-酸碱理论]]
+- 要求层级：能正确理解 pH 的定义、温度条件、近似公式适用范围，并能完成常见酸碱体系的定量计算
+- 课堂定位：作为 [[Brønsted酸碱理论]]、[[酸碱平衡]] 与 [[缓冲溶液]] 的运算落点，也是后续 [[酸碱滴定]] 的数值基础
 
 ## 三、核心原理
 - pH 每差 1 → [H⁺] 差 10 倍（对数标度）
@@ -143,9 +158,20 @@ $\mathrm{pH}$ 改变 $1$ 个单位 $\Longleftrightarrow$ $[\ce{H3O+}]$ 改变 $1
 
 ## 九、典型题型
 - 题型-pH计算
+- 题型-弱酸弱碱近似条件判断
+- 题型-缓冲体系 pH 估算
+- 题型-极稀溶液与高温中性判断
 
 ## 十、例题
-[待补充]
+**例 1**：计算 $25^\circ\mathrm{C}$ 下 $0.0200\ \mathrm{mol\cdot dm^{-3}}$ 醋酸溶液的 pH。已知 $K_a(\mathrm{HAc})=1.75\times10^{-5}$。  
+**思路**：先检验 $c/K_a\approx 1.14\times10^3>400$，可用弱酸近似：  
+$$[\mathrm{H}^+]\approx\sqrt{K_a c}=\sqrt{1.75\times10^{-5}\times0.0200}=5.92\times10^{-4}$$
+故 $\mathrm{pH}=3.23$。
+
+**例 2**：$100^\circ\mathrm{C}$ 纯水的 pH 是否等于 7？  
+**思路**：查表得 $K_w=5.45\times10^{-13}$，中性条件下 $[\mathrm{H}^+]=[\mathrm{OH}^-]=\sqrt{K_w}$，  
+$$\mathrm{pH}=-\lg\sqrt{5.45\times10^{-13}}\approx 6.13$$
+所以高温中性水不一定 pH=7。
 
 ## 十一、易错点
 - 忘记 $25^\circ\mathrm{C}$ 时 $K_w = 1.0\times 10^{-14}$，$\mathrm{pH} + \mathrm{pOH} = 14$
@@ -154,10 +180,38 @@ $\mathrm{pH}$ 改变 $1$ 个单位 $\Longleftrightarrow$ $[\ce{H3O+}]$ 改变 $1
 - 多元酸错误叠加各步电离来算 $[\ce{H+}]$
 
 ## 十二、🎯 教学视角
-- [待补充]
+
+### 12.1 学生典型认知误区
+
+| 误区 | 学生为什么会这么想 | 正确认识 | 口诀 |
+|:---|:---|:---|:---|
+| "pH=7 就是中性" | 初中化学入门记忆 | pH=7 是中性仅适用于 **25°C**！$K_w$ 随温度变——100°C 时 $K_w=5.5×10^{-13}$，中性 pH≈6.1 | "中性看温度，7不是万能" |
+| "pH 可以小于 0 或大于 14" | 觉得 0-14 是硬性范围 | 浓 HCl（10 mol/L）pH = −1！pH 只在稀溶液（<1 mol/L）中方便使用，浓溶液直接用浓度 | "稀溶液看pH，浓溶液看浓度" |
+| "pH 和 pOH 的关系总是 pH+pOH=14" | 把 25°C 下的 $K_w$ 当成永恒常数 | $\mathrm{p}K_w = \mathrm{pH} + \mathrm{pOH}$，但 $\mathrm{p}K_w$ 只在 25°C 时 = 14 | "pKw看温度，25度才14" |
+| "[H⁺] 和 pH 可以直接用计算器换算" | 计算器思维 | pH 的有效数字规则特殊：小数点后位数 = $[\mathrm{H}^+]$ 的有效位数。pH=4.62 是 2 位有效 | "pH只看小数后，整数不算有效位" |
+
+### 12.2 入门级例题
+
+**题目**：
+(1) 计算 $0.010\ \mathrm{mol\cdot L^{-1}}$ HCl 溶液的 pH（完全电离）。
+(2) 计算 $0.010\ \mathrm{mol\cdot L^{-1}}$ NaOH 溶液的 pH（25°C，$K_w = 1.0 \times 10^{-14}$）。
+
+**预期解答路径**：
+1. HCl → $[\mathrm{H}^+] = 0.010$ → pH = $-\lg(0.010) = 2.00$（2 位有效 → 小数点后 2 位）
+2. NaOH → $[\mathrm{OH}^-] = 0.010$ → pOH = 2.00 → pH = 14.00 − 2.00 = 12.00
+
+**教师引导提问**：如果是 $1.0 \times 10^{-8}\ \mathrm{mol\cdot L^{-1}}$ HCl（极稀），pH 是多少？（学生容易答 8.00——但酸不可能变碱！极稀时必须考虑水的自耦电离 → 真实 pH≈6.98。这引出了"浓度极限"的概念）
+
+### 12.3 与现实/直觉的连接
+
+- **柠檬汁 (pH~2) vs 肥皂 (pH~9-10)**：pH 每差 1 意味着 $[\mathrm{H}^+]$ 差 10 倍——柠檬汁的酸性是可乐（pH≈3）的 10 倍，是纯水的 100,000 倍！
+- **胃酸 (pH~1.5-3.5)**：胃壁细胞分泌的 HCl 使胃内保持强酸性——既能杀菌又能激活胃蛋白酶。胃酸返流到食道（pH~7）造成的灼烧感就是 pH 梯度在身体内的直观体验。
+- **酸雨的 pH 阈值**：正常雨水因溶解 CO₂ 而呈微酸性（pH≈5.6），pH<5.6 才是酸雨。背后是 $\mathrm{CO_2 + H_2O \rightleftharpoons H_2CO_3 \rightleftharpoons H^+ + HCO_3^-}$ 的平衡计算。
 
 ## 十三、竞赛拓展
-[待填充]
+- 严格定义中 $\mathrm{pH}=-\lg a_{\mathrm{H}^+}$，活度系数在较高离子强度下不可忽略
+- 多元酸体系可借助分布分数与主导平衡判断 pH，而不是机械联立全部电离方程
+- 极稀强酸强碱可通过电荷守恒联立 $K_w$ 精确求解，作为“近似失效”的典型案例
 
 ## 十四、外部资料出处
 - 主要来源：[[提炼-普化原理-第8章-酸碱平衡]]（《普通化学原理 第4版》第 8 章 8.2 节：水的自耦电离平衡）
@@ -177,4 +231,3 @@ FROM "04-题库"
 WHERE contains(knowledge_points, "pH")
 SORT year DESC, difficulty ASC
 ```
-

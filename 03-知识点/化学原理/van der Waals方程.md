@@ -1,15 +1,15 @@
 ---
-title: van der Waals方程
 aliases: [范德华方程, 实际气体状态方程, van der Waals状态方程]
 type: 知识点
+title: van der Waals方程
 subject: 化学原理
-module: 气体与溶液
-submodule:
+module: 化学原理
+submodule: 气体与溶液
 syllabus_stage: 基础
 parent_overview: 中国化学奥林匹克基本要求-总览
-parent_module:
-syllabus_code: []
-syllabus_module: []
+parent_module: 基础要求-化学原理
+syllabus_code: [2]
+syllabus_module: [化学原理]
 tags:
   - 化竞
   - 化学原理
@@ -21,33 +21,46 @@ problem_types: []
 difficulty: 3
 importance: 3
 status: 已填充
-sources: ["普通化学原理 第4版 第2章"]
-source_type: [教材]
+sources:
+  - 提炼-普化原理-第2章-气体
+  - 教学逻辑提炼-周坤无机新课-晶体配合物与气体-第一轮
+  - 2026-06-02-气体与溶液-基础班
+source_type: [书籍提炼, 教学逻辑提炼, 课件回流]
 review_cycle: 30d
 has_images: false
 image_count: 0
 images_priority: low
-images_note: "待评估"
+images_note: "建议后续补 Z-p 偏差图和临界等温线图；当前先以公式、对比表和计算例题承担教学。"
 key_images: []
 template_version: v1.3
-updated: 2026-06-01
+updated: 2026-06-18
 source_extracts:
+  - source_file: "[[提炼-普化原理-第2章-气体]]"
+    asset_id: "第2章-真实气体"
+    asset_type: "书籍提炼"
+    asset_summary: "真实气体偏差来源、压缩系数、van der Waals 方程的两项修正与外延法"
+    target_section: "§三-§七"
+    date: "2026-06-18"
+    status: "已回流"
   - source_file: "[[教学逻辑提炼-周坤无机新课-晶体配合物与气体-第一轮]]"
     asset_id: "B4-17"
     asset_type: "分类资产"
     asset_summary: "理想气体 vs 真实气体对比（van der Waals 参数 a,b 的物理意义与典型值）"
     target_section: "§二"
-    date: "2026-06-01"
+    date: "2026-06-18"
     status: "已回流"
 teaching_ready: false
 source_notes:
+  - "[[提炼-普化原理-第2章-气体]]"
   - "[[教学逻辑提炼-周坤无机新课-晶体配合物与气体-第一轮]]"
+  - "[[04-课件/新授课/2026-06-02-气体与溶液-基础班]]"
+  - "[[04-课件/备课大纲/2026-06-02-气体与溶液-基础班]]"
 ---
 
 # van der Waals方程
 
 - 总览：[[中国化学奥林匹克基本要求-总览]]
-- 所属模块：[[气体与溶液]]
+- 所属模块：[[基础要求-化学原理]]
 
 ## 一、定义
 
@@ -69,7 +82,9 @@ $$
 
 ## 二、考纲对应
 
-（待填充）
+- 对应考纲条目：[[02-气体]]
+- 所属模块：[[基础要求-化学原理]]
+- 本知识点在考纲中的作用：作为理想气体模型的修正页，用来解释真实气体偏差、压缩系数与高压条件下的计算近似，是第一轮普化气体专题的合理加深内容。
 
 ### 理想气体 vs 真实气体对比（周坤无机新课讲义 · 资产 B4-17 · 可信度：高）
 

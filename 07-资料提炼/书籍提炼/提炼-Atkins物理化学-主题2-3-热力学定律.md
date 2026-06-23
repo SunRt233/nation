@@ -215,3 +215,6 @@ FROM "04-题库"
 WHERE contains(syllabus_codes, "决赛04")
 SORT year DESC, difficulty ASC
 ```
+
+> 📎 相关专题：[[04-专题与题型/专题-热力学初步]] · [[04-专题与题型/专题-物化综合计算]]
+

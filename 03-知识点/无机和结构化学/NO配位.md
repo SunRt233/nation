@@ -29,17 +29,22 @@ sources:
 source_type: [教材]
 review_cycle: 30d
 has_images: true
-image_count: 2
+image_count: 1
 images_priority: high
-images_note: "需要配图：直线型NO与弯曲型NO配位模式对比、NO与CO的MO对比"
-key_images: []
+images_note: "已补入 Weller 中 NO/N2 配位模式对照图，可直观支撑直线型与弯曲型 NO 配位方式的第一轮辨析。"
+key_images:
+  - "NO 配位模式对照图"
 template_version: v1.3
-updated: 2026-05-24
+updated: 2026-06-15
 teaching_ready: false
 source_notes: []
 ---
 
 # NO配位
+
+![[mineru/03-教材书籍/无机化学第6版Weller/无机化学第6版Weller/无机化学第6版副族金属有机565-748_images/f08d092949e71d43e7ae058b7cd913e01da1f95b360e5b607a32b8974851a96e.jpg]]
+
+> Weller 图 22 章中的配位模式对照图，右侧两式可直接用于区分直线型与弯曲型 NO 配位；同图还可顺带比较端基/桥联的 N2 配位方式。
 
 > 总览：[[中国化学奥林匹克基本要求-总览]]
 > 所属模块：[[决赛要求-无机和结构化学]]
