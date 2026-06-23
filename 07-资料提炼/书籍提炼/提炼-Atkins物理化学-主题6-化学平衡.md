@@ -14,6 +14,12 @@ problems_extracted: 0
 review_status: 待审核
 updated: 2026-05-16
 ---
+handout_plan:
+  - target: "化学平衡"
+    status: completed
+    priority: P2
+    source_sections: ["主题6 化学平衡（平衡常数、范特霍夫方程、能斯特方程、电极电势）"]
+    estimated_pages: 6
 
 # 提炼-Atkins物理化学-主题6-化学平衡
 

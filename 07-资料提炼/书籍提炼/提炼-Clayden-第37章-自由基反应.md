@@ -9,6 +9,12 @@ extracted_date: 2026-05-19
 template_version: v1.3
 status: 已提炼
 ---
+handout_plan:
+  - target: "烷烃烯烃炔烃"
+    status: completed
+    priority: P1
+    source_sections: ["第37章 自由基反应（链式反应、NBS溴代、自由基加成、Barton反应、自由基环化）"]
+    estimated_pages: 6
 
 # 提炼：Clayden 第37章——自由基反应（Radical Reactions）
 

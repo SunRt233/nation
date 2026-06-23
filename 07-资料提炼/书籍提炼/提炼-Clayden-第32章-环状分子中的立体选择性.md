@@ -7,6 +7,12 @@ chapter: "32"
 pages: "787-907"
 updated: 2026-05-18
 ---
+handout_plan:
+  - target: "有机化学基础"
+    status: completed
+    priority: P2
+    source_sections: ["第32章 环状分子中的立体选择性（环己烷构象、多环体系、立体选择性控制）"]
+    estimated_pages: 6
 
 # 提炼：Clayden 第32章 环状分子中的立体选择性
 

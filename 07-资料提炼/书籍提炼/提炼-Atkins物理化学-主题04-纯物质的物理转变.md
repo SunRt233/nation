@@ -14,6 +14,12 @@ problems_extracted: 2
 review_status: 待审核
 updated: 2026-05-15
 ---
+handout_plan:
+  - target: "热力学基础"
+    status: completed
+    priority: P2
+    source_sections: ["主题04 纯物质的物理转变（相图、相律、Clapeyron方程、相变热力学）"]
+    estimated_pages: 6
 
 # 提炼-Atkins物理化学-主题04-纯物质的物理转变
 

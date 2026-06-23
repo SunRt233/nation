@@ -14,6 +14,12 @@ problems_extracted: 7
 review_status: 待审核
 updated: 2026-05-15
 ---
+handout_plan:
+  - target: "溶液和胶体"
+    status: completed
+    priority: P2
+    source_sections: ["主题05 简单混合物（依数性、活度、拉乌尔定律、亨利定律、相图）"]
+    estimated_pages: 6
 
 # 提炼-Atkins物理化学-主题05-简单混合物
 

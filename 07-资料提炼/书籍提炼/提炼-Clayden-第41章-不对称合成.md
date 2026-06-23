@@ -9,6 +9,12 @@ extracted_date: 2026-05-19
 template_version: v1.3
 status: 已提炼
 ---
+handout_plan:
+  - target: "有机化学基础"
+    status: completed
+    priority: P2
+    source_sections: ["第41章 不对称合成（手性助剂、手性配体、Sharpless/Noyori不对称催化）"]
+    estimated_pages: 6
 
 # 提炼：Clayden 第41章——不对称合成（Asymmetric Synthesis）
 

@@ -14,6 +14,12 @@ problems_extracted: 0
 review_status: 待审核
 updated: 2026-05-16
 ---
+handout_plan:
+  - target: "原子结构"
+    status: completed
+    priority: P2
+    source_sections: ["主题7-8-9 量子理论与结构（量子理论、原子结构、分子轨道、光谱项）"]
+    estimated_pages: 8
 
 # 提炼-Atkins物理化学-主题7-8-9-量子理论与结构
 

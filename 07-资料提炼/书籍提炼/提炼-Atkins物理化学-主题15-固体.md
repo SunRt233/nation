@@ -14,6 +14,12 @@ problems_extracted: 4
 review_status: 待审核
 updated: 2026-05-16
 ---
+handout_plan:
+  - target: "晶体学基础"
+    status: completed
+    priority: P2
+    source_sections: ["主题15 固体（晶体结构、能带理论、X射线衍射、半导体）"]
+    estimated_pages: 6
 
 # 提炼-Atkins物理化学-主题15-固体
 

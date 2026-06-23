@@ -14,6 +14,12 @@ problems_extracted: 0
 review_status: 待审核
 updated: 2026-05-16
 ---
+handout_plan:
+  - target: "热力学基础"
+    status: completed
+    priority: P2
+    source_sections: ["主题2-3 热力学定律（热力学第一/二/三定律、熵、焓、Gibbs自由能、Maxwell关系）"]
+    estimated_pages: 8
 
 # 提炼-Atkins物理化学-主题2-3-热力学定律
 

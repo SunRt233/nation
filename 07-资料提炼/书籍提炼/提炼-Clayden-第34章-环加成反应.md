@@ -8,6 +8,12 @@ template_version: v1.3
 updated: 2026-05-18
 tags: [化竞, 有机化学, 周环反应, 环加成, Diels-Alder, Clayden]
 ---
+handout_plan:
+  - target: "烷烃烯烃炔烃"
+    status: completed
+    priority: P1
+    source_sections: ["第34章 周环反应1——环加成（Diels-Alder、[2+2]环加成、前线轨道理论、endo规则）"]
+    estimated_pages: 8
 
 # Clayden 第34章：周环反应1——环加成 资料提炼
 

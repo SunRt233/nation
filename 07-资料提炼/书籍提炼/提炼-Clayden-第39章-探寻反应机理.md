@@ -9,6 +9,12 @@ extracted_date: 2026-05-19
 template_version: v1.3
 status: 已提炼
 ---
+handout_plan:
+  - target: "有机化学基础"
+    status: completed
+    priority: P2
+    source_sections: ["第39章 探寻反应机理（动力学、同位素标记、立体化学探针、交叉实验）"]
+    estimated_pages: 4
 
 # 提炼：Clayden 第39章——探寻反应机理（Investigating Reaction Mechanisms）
 

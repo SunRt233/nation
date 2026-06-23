@@ -23,6 +23,12 @@ syllabus_codes:
   - 决赛15-主客体化学
   - 决赛13-超分子聚合物
 status: 已提炼
+handout_plan:
+  - target: "配位化合物基础"
+    status: pending
+    priority: P2
+    source_sections: ["第1/3/5章 超分子化学基础（主客体化学、冠醚、穴醚、杯芳烃、环糊精、分子识别、包结作用）"]
+    estimated_pages: 8
 ---
 
 # 提炼：Steed & Atwood 超分子化学基础（Ch1, 3, 5）

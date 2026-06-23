@@ -23,6 +23,12 @@ syllabus_codes:
   - 决赛14-超分子相互作用
   - 决赛15-主客体化学
 status: 已提炼
+handout_plan:
+  - target: "配位化合物基础"
+    status: pending
+    priority: P2
+    source_sections: ["第7章 模板和自组装（模板效应、配位自组装、氢键自组装、索烃/轮烷、螺旋状络合物）"]
+    estimated_pages: 6
 ---
 
 # 提炼：Steed & Atwood 超分子化学第7章 — 模板和自组装

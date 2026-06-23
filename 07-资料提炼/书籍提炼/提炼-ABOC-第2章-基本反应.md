@@ -19,6 +19,12 @@ tags: [化竞, ABOC, 有机化学, 资料提炼, 基本反应, 反应机理, 平
 review_status: 进行中
 parent_moc: "[[提炼-ABOC]]"
 updated: 2026-05-10
+handout_plan:
+  - target: "有机化学基础"
+    status: completed
+    priority: P1
+    source_sections: ["第2章 基本反应（四类反应入门、八大思维、离子型/自由基/周环反应）"]
+    estimated_pages: 8
 ---
 
 # 第2章 基本反应介绍：四类反应入门 + 八大思维
@@ -216,7 +222,7 @@ updated: 2026-05-10
 
 ## 六、关键图表和反应方程式
 
-### 6.1 必备机理图
+### 6.1 必备机理图【→学生讲义：有机化学基础 · 机理图】
 
 - **§2.1 碳酸八聚体氢键链**：行 1499 图 — 解释 β-碳酸晶体结构
 - **§2.2 硝酸氧化醇全链路**：醇 → 硝酸酯 → 醛 → 羧酸 — 行 1564 + 行 1574 等多图
@@ -229,7 +235,7 @@ updated: 2026-05-10
 - **§2.10.2 7×7 硬软亲核试剂表**：行 1980 — 跨章高频查表
 - **§2.11 Grob 反式共平面图**：两组孤对电子-反键轨道协同 — 行 1998
 
-### 6.2 关键化学方程式（选粹）
+### 6.2 关键化学方程式（选粹）【→学生讲义：有机化学基础 · 关键方程式】
 
 $$\mathrm{Na} + \mathrm{H_2O} \longrightarrow \mathrm{Na^+OH^-} + \mathrm{H^{\bullet}}, \quad 2\mathrm{H^{\bullet}} \longrightarrow \mathrm{H_2}$$
 
@@ -239,7 +245,7 @@ $$\mathrm{AIBN} \xrightarrow{\Delta} 2\,(\mathrm{CH_3})_2\dot{\mathrm{C}}\text{-
 
 $$\mathrm{NBS} + \mathrm{HBr} \rightleftharpoons \mathrm{NBH} + \mathrm{Br_2} \quad\text{（"溴单质均匀释放器"）}$$
 
-### 6.3 速率/选择性数据
+### 6.3 速率/选择性数据【→学生讲义：有机化学基础 · 速率与选择性数据】
 
 - **§2.6 [3,3]σ 重排速率**：LiH 60 年 / NaH 10 min / KH 1.5 min — 证明 Li-O 共价性最强
 - **§2.7.2 烯丙基格氏制备溶剂选择**：芳基用 THF（高沸点）/ 烷基含双键时用己烷（防内拔氢）

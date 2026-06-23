@@ -219,4 +219,28 @@ Agent模块关系与收工同步清单
 
 ---
 
-*本说明由 Agent 于 2026-05-08 创建；当前口径已同步到“首页/状态页判断方向，数据库页与 `.base` 负责筛选浏览”。*
+## 八、Vault 本地脚本工具速查
+
+> 以下脚本存放在 `11-模板/scripts/` 下，是 Agent 可调用的批量化工具。
+> 使用前确认依赖已安装：`pip install python-docx pyyaml`
+
+| 脚本 | 用途 | 调用方式 |
+|:---|:---|:---|
+| `build-all-handout-docx.py` | 将 `04-课件/学生讲义/` 下全部 .md 讲义一键转换为格式统一的 .docx（A4 页面、微软雅黑 + Times New Roman、表格/公式/代码块均处理） | `python build-all-handout-docx.py` |
+| `docx_utils.py` | 共享样式库（被上述脚本调用），也可被其他手写 build 脚本 `from docx_utils import *` 复用 | `from docx_utils import base_doc, title_block, heading, ...` |
+| `render_docx_windows.py` | docx → PDF → PNG 渲染（依赖 LibreOffice + pypdfium2），用于生成讲义预览图 | `python render_docx_windows.py input.docx` |
+
+### build-all-handout-docx.py 常用参数
+
+```bash
+python build-all-handout-docx.py                    # 全部转换（34 份）
+python build-all-handout-docx.py --file 滴定分析    # 单份讲义
+python build-all-handout-docx.py --dry-run          # 预览清单
+python build-all-handout-docx.py --verbose          # 调试日志
+```
+
+输出目录：`06-学生侧材料/讲义/`
+
+---
+
+*本说明由 Agent 于 2026-05-08 创建；当前口径已同步到”首页/状态页判断方向，数据库页与 `.base` 负责筛选浏览”。*

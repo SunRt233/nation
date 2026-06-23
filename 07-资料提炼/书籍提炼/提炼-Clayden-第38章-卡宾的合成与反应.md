@@ -9,6 +9,12 @@ extracted_date: 2026-05-19
 template_version: v1.3
 status: 已提炼
 ---
+handout_plan:
+  - target: "有机化学基础"
+    status: completed
+    priority: P2
+    source_sections: ["第38章 卡宾的合成与反应（卡宾生成、Simmon-Smith、C-H插入、金属卡宾）"]
+    estimated_pages: 4
 
 # 提炼：Clayden 第38章——卡宾的合成与反应（Carbene Synthesis and Reactions）
 

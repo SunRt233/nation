@@ -26,6 +26,12 @@ syllabus_codes:
   - 50-有机合成
 status: 已提炼
 ---
+handout_plan:
+  - target: "杂环糖氨基酸"
+    status: completed
+    priority: P1
+    source_sections: ["第42章 生命中的有机化学（核酸、蛋白质、糖类、脂类、天然产物生物合成）"]
+    estimated_pages: 8
 
 # 提炼：Clayden 第42章 — 生命中的有机化学
 

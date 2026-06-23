@@ -7,6 +7,12 @@ chapter: "31"
 pages: "787-907"
 updated: 2026-05-18
 ---
+handout_plan:
+  - target: "杂环糖氨基酸"
+    status: completed
+    priority: P1
+    source_sections: ["第31章 饱和杂环和立体电子效应（饱和杂环、异头碳效应、立体电子效应）"]
+    estimated_pages: 6
 
 # 提炼：Clayden 第31章 饱和杂环和立体电子效应
 

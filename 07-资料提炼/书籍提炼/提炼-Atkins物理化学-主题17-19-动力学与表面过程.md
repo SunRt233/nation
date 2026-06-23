@@ -14,6 +14,12 @@ problems_extracted: 8
 review_status: 待审核
 updated: 2026-05-15
 ---
+handout_plan:
+  - target: "化学动力学基础"
+    status: completed
+    priority: P2
+    source_sections: ["主题17-19 动力学与表面过程（速率方程、Arrhenius公式、过渡态理论、表面吸附、多相催化）"]
+    estimated_pages: 8
 
 # 提炼-Atkins物理化学-主题17-19-动力学与表面过程
 

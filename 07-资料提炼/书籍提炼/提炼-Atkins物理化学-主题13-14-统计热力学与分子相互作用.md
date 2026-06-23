@@ -14,6 +14,12 @@ problems_extracted: 6
 review_status: 待审核
 updated: 2026-05-16
 ---
+handout_plan:
+  - target: "热力学基础"
+    status: completed
+    priority: P2
+    source_sections: ["主题13-14 统计热力学与分子相互作用（Boltzmann分布、配分函数、分子间相互作用、胶体）"]
+    estimated_pages: 6
 
 # 提炼-Atkins物理化学-主题13-14-统计热力学与分子相互作用
 

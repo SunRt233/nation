@@ -7,6 +7,12 @@ chapter: "33"
 pages: "787-907"
 updated: 2026-05-18
 ---
+handout_plan:
+  - target: "有机化学基础"
+    status: completed
+    priority: P2
+    source_sections: ["第33章 非对映选择性（Cram规则、Felkin-Anh模型、手性辅助基、立体化学控制）"]
+    estimated_pages: 6
 
 # 提炼：Clayden 第33章 非对映选择性
 

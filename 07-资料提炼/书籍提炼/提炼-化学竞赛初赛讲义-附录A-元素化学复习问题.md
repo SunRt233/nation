@@ -35,6 +35,32 @@ tags:
   - 复习题
   - 附录
 updated: 2026-06-21
+handout_plan:
+  - target: "卤族元素"
+    status: planned
+    priority: P2
+    source_sections: ["卤族复习问题（自检题）"]
+    estimated_pages: 1
+  - target: "氧族与氮族元素"
+    status: planned
+    priority: P2
+    source_sections: ["氧族/氮族复习问题（自检题）"]
+    estimated_pages: 2
+  - target: "碳族与硼族元素"
+    status: planned
+    priority: P2
+    source_sections: ["碳族/硼族复习问题（自检题）"]
+    estimated_pages: 1
+  - target: "碱金属碱土金属与稀有气体"
+    status: planned
+    priority: P2
+    source_sections: ["碱金属/碱土金属/氢复习问题（自检题）"]
+    estimated_pages: 1
+  - target: "元素推断综合训练"
+    status: planned
+    priority: P2
+    source_sections: ["~20% 反常现象→原理解释型题目"]
+    estimated_pages: 2
 ---
 
 # 提炼：化学竞赛初赛讲义附录A 元素化学复习问题

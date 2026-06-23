@@ -9,6 +9,12 @@ extracted_date: 2026-05-18
 template_version: v1.3
 status: 已提炼
 ---
+handout_plan:
+  - target: "有机化学基础"
+    status: completed
+    priority: P2
+    source_sections: ["第36章 碎片化与重排（碳正离子重排、Wagner-Meerwein、Beckmann、Hofmann降解）"]
+    estimated_pages: 6
 
 # 提炼：Clayden 第36章——碎片化与重排（Fragmentation and Rearrangement）
 

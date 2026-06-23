@@ -7,6 +7,12 @@ chapter: "30"
 pages: "787-907"
 updated: 2026-05-18
 ---
+handout_plan:
+  - target: "杂环糖氨基酸"
+    status: completed
+    priority: P1
+    source_sections: ["第30章 芳杂环合成（六元杂环、五元杂环、嘧啶、嘌呤、稠合杂环）"]
+    estimated_pages: 8
 
 # 提炼：Clayden 第30章 芳杂环 2：合成
 

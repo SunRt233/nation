@@ -9,6 +9,12 @@ extracted_date: 2026-05-19
 template_version: v1.3
 status: 已提炼
 ---
+handout_plan:
+  - target: "有机化学基础"
+    status: completed
+    priority: P2
+    source_sections: ["第40章 金属有机化学（催化循环、氧化加成、迁移插入、β-H消除、还原消除）"]
+    estimated_pages: 8
 
 # 提炼：Clayden 第40章——金属有机化学（Organometallic Chemistry）
 

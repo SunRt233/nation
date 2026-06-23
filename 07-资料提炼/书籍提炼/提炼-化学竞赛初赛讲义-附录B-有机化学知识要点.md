@@ -31,6 +31,12 @@ tags:
   - 有机化学
   - 速查
 updated: 2026-06-22
+handout_plan:
+  - target: "有机化学基础"
+    status: pending
+    priority: P2
+    source_sections: ["附录B 有机化学知识要点（电子效应、羰基反应、缩合反应、周环反应、重排反应、杂环化学速查）"]
+    estimated_pages: 4
 ---
 
 # 提炼：化学竞赛初赛讲义附录B 有机化学知识要点

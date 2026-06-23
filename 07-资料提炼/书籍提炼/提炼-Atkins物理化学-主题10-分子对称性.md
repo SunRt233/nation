@@ -13,6 +13,12 @@ problems_extracted: 6
 review_status: 待审核
 updated: 2026-05-16
 ---
+handout_plan:
+  - target: "分子结构和性质"
+    status: completed
+    priority: P2
+    source_sections: ["主题10 分子对称性（点群、群论、特征标表、SALC、选律）"]
+    estimated_pages: 6
 
 # 提炼-Atkins物理化学-主题10-分子对称性
 

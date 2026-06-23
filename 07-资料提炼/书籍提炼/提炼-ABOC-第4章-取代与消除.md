@@ -8,6 +8,22 @@ syllabus_module: 基础要求-有机化学
 phase: B
 status: v1.0
 updated: 2026-05-10
+handout_plan:
+  - target: "芳香烃与卤代烃"
+    status: completed
+    priority: P1
+    source_sections: ["第4章 取代与消除（SN1/SN2/E1/E2、醇卤代、氧化、消除反应）"]
+    estimated_pages: 8
+  - target: "SN1与SN2比较"
+    status: completed
+    priority: P1
+    source_sections: ["第4章 取代与消除（SN1/SN2竞争）"]
+    estimated_pages: 2
+  - target: "取代与消除竞争"
+    status: completed
+    priority: P1
+    source_sections: ["第4章 取代与消除（E1/E2与SN竞争）"]
+    estimated_pages: 2
 ---
 
 # 提炼-ABOC-第4章-取代与消除
@@ -86,7 +102,7 @@ Ch.1 结构基础 → Ch.2 基本反应 → Ch.3 烯烃加成
 
 ## 五、各章精要
 
-### 5.1 醇的卤代与 Mitsunobu（4.1-4.2）
+### 5.1 醇的卤代与 Mitsunobu（4.1-4.2）【→学生讲义：芳香烃与卤代烃 · 醇的卤代与 Mitsunobu】
 
 **四种经典醇 → 卤代烷方法对比**：
 
@@ -103,7 +119,7 @@ Ch.1 结构基础 → Ch.2 基本反应 → Ch.3 烯烃加成
 - 本质：PPh₃ 活化醇 → 氧鎓中间体 → 羧酸根背面进攻
 - ABOC 引入膦化学基础（P=O 键的形成是驱动力）
 
-### 5.2 醇的氧化（4.3）
+### 5.2 醇的氧化（4.3）【→学生讲义：芳香烃与卤代烃 · 醇的氧化】
 
 **氧化试剂对比表**（ABOC 核心表格）：
 
@@ -118,7 +134,7 @@ Ch.1 结构基础 → Ch.2 基本反应 → Ch.3 烯烃加成
 
 **关键思维**：氧化试剂的选择性——"想停在哪就停在哪"。
 
-### 5.3 消除反应（4.5-4.6）
+### 5.3 消除反应（4.5-4.6）【→学生讲义：取代与消除竞争 · E1/E2消除】
 
 #### E1 vs E2 vs E1cb 对比
 
@@ -148,7 +164,7 @@ Ch.1 结构基础 → Ch.2 基本反应 → Ch.3 烯烃加成
 - 机理：**syn 消除**（五元环过渡态）
 - 特点：无酸性条件，不引起重排
 
-### 5.4 氧化还原中的人名反应（4.8-4.13）
+### 5.4 氧化还原中的人名反应（4.8-4.13）【→学生讲义：芳香烃与卤代烃 · 氧化还原人名反应】
 
 #### Cannizzaro 反应
 

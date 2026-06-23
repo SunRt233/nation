@@ -14,6 +14,12 @@ tags:
   - 周环反应
   - 资料提炼
 ---
+handout_plan:
+  - target: "烷烃烯烃炔烃"
+    status: completed
+    priority: P1
+    source_sections: ["第35章 σ重排和电环化反应（[3,3]-σ迁移、Cope/Claisen、电环化、Nazarov环化）"]
+    estimated_pages: 6
 
 # 提炼：Clayden 第35章 — σ 重排和电环化反应
 
